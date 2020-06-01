@@ -34,5 +34,4 @@ elements.searchForm.addEventListener('submit', e => {
 
 
 
-
 // ['hashchange', 'load'].forEach(event => window.addEventListener(event, controlFood));

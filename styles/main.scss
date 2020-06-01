@@ -190,6 +190,7 @@ border-bottom-left-radius: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x:hidden;
 
   .searchbar {
     width: 100%;
