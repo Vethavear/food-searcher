@@ -92,7 +92,6 @@ display:none;
   background: $primary-color-alt;
 }
 #closer{
-display:none;
   width: 25px;
   height: 25px;
   font-weight: bold;
@@ -107,6 +106,8 @@ display:none;
   top: 0;
   right:0;
   margin: 0.5rem 0.5rem;
+display:none;
+
 }
 #left {
   *{
@@ -143,9 +144,11 @@ display:none;
       margin: 0 1rem;
     }
 
-    // input {
-    //   padding: 0 2rem;
-    // }
+    input {
+      padding: 0.5rem 1rem;
+      border: 1px solid $primary-color;
+      border-radius: 0.25rem;
+    }
   }
 
   .results, .meallist {
@@ -154,7 +157,8 @@ display:none;
     background: #fcfcfc;
     padding: 1rem;
     margin: 2rem 0;
-    width: 60vw;
+    margin-left: 15vw;
+    width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;

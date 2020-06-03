@@ -16,8 +16,10 @@
 }
 #middle {
   // width:auto;
+  // margin-left: 0;
   .meallist,
   .results {
+    margin-left: 0;
     width: 100%;
     overflow: scroll;
   }
