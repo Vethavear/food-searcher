@@ -25,13 +25,16 @@ const controlSearch = async () => {
     searchView.renderResults(state.search.result);
   }
 }
-
-elements.searchForm.addEventListener('submit', e => {
+elements.openerButton.addEventListener('click', e =>{
+  elements.leftDiv.classList.toggle('bringBack');
+});
+elements.closerButton.addEventListener('click', e =>{
+  elements.leftDiv.classList.toggle('bringBack');
+});
+elements.submitButton.addEventListener('click', e => {
   e.preventDefault();
   controlSearch();
 });
 
 
 
-
-// ['hashchange', 'load'].forEach(event => window.addEventListener(event, controlFood));

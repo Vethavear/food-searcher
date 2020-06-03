@@ -1,5 +1,50 @@
-@media (max-width: 500px) {
-  * {
-    overflow-x: hidden;
+#opener {
+  display: block;
+}
+
+#left {
+  width: 30vw;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+#left #todayData #closer {
+  display: block;
+}
+
+#middle .meallist,
+#middle .results {
+  width: 100%;
+  overflow: scroll;
+}
+
+#middle .searchbar * {
+  margin: 0;
+}
+
+#middle .searchbar .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#middle .searchbar .row span {
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+@media (orientation: portrait) {
+  #left,
+  #middle {
+    display: none;
+  }
+  .portrait {
+    margin-top: 30vh;
+    text-align: center;
+    display: block;
   }
 }
