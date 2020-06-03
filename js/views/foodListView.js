@@ -24,7 +24,7 @@ import {
     <p>${food.nutriments.carbohydrates_100g}</p>
     <p>${food.nutriments.energy_100g}</p>
     <span class="row">
-    <input class="basic-slide" name ="portion" id="portion-${index}" type="text" value="${portion}"><label for="portion-${index}">[g]</label>
+    <input class="basic-slide" name ="portion" id="portion-${index}" type="text" value="${portion}">
   </span>
   
     <button id="btn-${index}" class="btn"><i class="fas fa-times"></i></button>

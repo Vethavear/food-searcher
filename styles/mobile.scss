@@ -1,6 +1,51 @@
-//smartphones
-@media(max-width: 500px) {
-  * {
-    overflow-x: hidden;
+* {
+  // overflow-x: scroll;
+}
+
+#opener{
+  display:block;
+}
+#left {
+  width: 30vw;
+  transform: translateX(-100%);
+  #todayData {
+    #closer{
+      display: block;
+    }
+  }
+}
+#middle {
+  // width:auto;
+  // margin-left: 0;
+  .meallist,
+  .results {
+    margin-left: 0;
+    width: 100%;
+    overflow: scroll;
+  }
+  .searchbar {
+    * {
+      margin: 0;
+    }
+    .row {
+      span {
+        overflow: hidden;
+        margin: 1rem 0;
+      }
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media (orientation: portrait) {
+  #left,
+  #middle {
+    display: none;
+  }
+  .portrait {
+    margin-top: 30vh;
+    text-align: center;
+    display: block;
   }
 }

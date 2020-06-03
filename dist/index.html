@@ -5,25 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" media="screen and (max-width: 1100px)" href="css/widescreen.css">
-  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
-  <link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="css/main.css">
+
+ <link rel="stylesheet" media="screen and (max-width: 1100px)" href="css/mobile.css">
+ 
   <title>Diet Calc</title>
 </head>
 
 <body>
+  <h1 class="portrait">Please use landscape mode!</h1>
   <nav id="nav">
     <ul>
       <li class="p2"><a class="ts3" href="index.html">Food Nutrition Searcher</a></li>
-
     </ul>
   </nav>
-  <!-- <header>
-    <h1 class="center py-1">Keep track of your diet</h1>
-    <h2 class="center py-1">Analyse your nutritions</h2>
-    <h3 class="center py-1">Compose your meals</h3>
-  </header> -->
-
   <section id="left">
     <div id="todayData" class="p2">
       <h2> Today nutritions </h2>
@@ -31,10 +26,12 @@
       <p id="proteins">Proteins: 0</p>
       <p id="carbohydrates">Carbohydrates: 0</p>
       <p id="fat">Fat: 0</p>
+      <button id="closer">X</button>
     </div>
-
+ 
   </section>
   <section id="middle" class="py-2">
+  <button id="opener"></button>
 <h1 class="center">
   Today Meals
 </h1>
@@ -52,36 +49,16 @@
   Search Food
 </h1>
     <div class="searchbar">
-
       <div class="row">
         <span>
-          <input class="basic-slide searchInput" id="search" type="text" placeholder="Write food name" /><label for="search">Food</label>
+          <input class="basic-slide searchInput" id="search" type="text" placeholder="Write food name" />
         </span>
-        <form class="search">
           <button type="submit" id="submit">Search</button>
-        </form>
         </div>
-    
     </div>
-
-
-
-
     <div class="results">
-
     </div>
   </section>
-
-  <!-- <section id="right">
-    <div id="todayData" class="p2">
-      <h2> Today minerals and vitamins </h2>
-      <p>Calcium: 2g</p>
-      <p>protein: 123g</p>
-      <p>carbohydrates: 150g</p>
-      <p>fats: 34g</p>
-    </div>
-    </div>
-  </section> -->
 </body>
 <script src="js/bundle.js"> </script>
 <script src="https://kit.fontawesome.com/86d05de8a6.js" crossorigin="anonymous"></script>

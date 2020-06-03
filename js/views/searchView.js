@@ -28,7 +28,7 @@ const renderFood = async (food, index) => {
   <p>${food.nutriments.carbohydrates_100g}</p>
   <p>${food.nutriments.energy_100g}</p>
   <span class="row">
-  <input class="basic-slide" name ="portion" id="portion-${index}" type="text" value="100"><label for="portion-${index}">[g]</label>
+  <input class="basic-slide" name ="portion" id="portion-${index}" type="text" value="100">
 </span>
   <button id="btn-${index}" class="btn">Add</button>
   <div class="separator"></div>
