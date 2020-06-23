@@ -27,7 +27,7 @@ Simple food searcher using https://world.openfoodfacts.org api. Project done to 
 
 ## Live 📍
 
-https://vethavear.github.io/barber/dist/
+https://vethavear.github.io/food-searcher/dist/
 
 ## License 🔱
 All rights reserved by me.
