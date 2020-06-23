@@ -21,7 +21,7 @@ Simple food searcher using https://world.openfoodfacts.org api. Project done to 
 ## Screenshots 📺
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/26926726/83330332-7f1ec480-a28e-11ea-918d-9bc782fd5983.jpg" alt="Screenshot">
+    <img src="https://user-images.githubusercontent.com/26926726/83765178-26c73880-a67b-11ea-8d93-165202a686ee.png" alt="Screenshot">
 </p>
 
 
